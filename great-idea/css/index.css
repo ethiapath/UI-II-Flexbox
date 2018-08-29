@@ -94,8 +94,6 @@ header nav a {
 	padding-top: 68px;
 	display: flex;
 }
-.jumbotron img{
-}
 
 .jumbotron .heading {
 	vertical-align: top;
@@ -107,8 +105,12 @@ header nav a {
 
 }
 
-.heading h1 {
+h1 {
 	font-size: 40px;
+}
+
+h2 {
+	font-size: 25px;
 }
 .get-started {
 	border: 1px solid black;
@@ -177,10 +179,17 @@ footer address {
 .card {
 	border: 1px solid black;
 	background-color: lightgrey;
+	padding: 20px 30px 20px 20px;
 	margin: 10px;
-	/* width: 49%; */
+	width: 418px;
 }
 
+.learn-more {
+	border: 1px solid black;
+	margin-top: 20px;
+	border-radius: 4px;
+	padding: 10px 40px;
+}
 .footer-info {
 	width: 50%;
 	margin-top: -20px;
