@@ -71,35 +71,40 @@ div.container {
 
 header {
 	padding: 10px 0px 20px 0;
-	display: inline-block;
 	width: 876px;
 	background-color: gray;
+	display: flex;
+	align-items: center;
 	position: fixed;
 }
+
 header nav a {
 	color: lightgrey;
-	margin: 20px 55px 20px 4px;
+	margin: 0px 55px 0px 4px;
 	text-decoration: none;
 }
+
 .logo {
 	/* display: inline-block; */
-	margin: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
 	text-align: right;
 }
 
 .jumbotron {
 	padding-top: 68px;
-	margin: 0 auto;
+	display: flex;
 }
 .jumbotron img{
-	display: inline-block;
 }
 
 .jumbotron .heading {
 	vertical-align: top;
 	text-align: center;
-	display: inline-block;
 	padding: 100px 50px 100px 160px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
 }
 
 .heading h1 {
@@ -109,7 +114,6 @@ header nav a {
 	border: 1px solid black;
 	padding: 3px 10px;
 	max-width: 100px;
-	margin: 0 auto;
 }
 
 section.info {
@@ -119,9 +123,16 @@ section.info {
 }
 
 .blerbs {
-	display: inline-block;
 	text-align: left;
 	padding: 20px 0;
+}
+
+.info-top {
+	display: flex;
+}
+
+.info-bottom {
+	display: flex;
 }
 
 .info-top .blerbs {
@@ -148,3 +159,15 @@ footer address {
 
 .copyright {
 	margin: 0 auto;
+
+/* services.html styles */
+
+.services-header-img {
+	width: 876px;
+}
+
+.card {
+	border: 1px solid black;
+	margin: 10px;
+	width: 50%;
+}
