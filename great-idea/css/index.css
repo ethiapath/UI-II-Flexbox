@@ -64,3 +64,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+div.container {
+	max-width: 876px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 10px 0px 20px 0;
+	display: inline-block;
+	width: 876px;
+	background-color: gray;
+	position: fixed;
+}
+header nav a {
+	color: lightgrey;
+	margin: 20px 55px 20px 4px;
+	text-decoration: none;
+}
+.logo {
+	/* display: inline-block; */
+	margin: 0px 0px 0px 10px;
+	text-align: right;
+}
+
+.jumbotron {
+	padding-top: 68px;
+	margin: 0 auto;
+}
+.jumbotron img{
+	display: inline-block;
+}
+
+.jumbotron .heading {
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	padding: 100px 50px 100px 160px;
+}
+
+.heading h1 {
+	font-size: 40px;
+}
+.get-started {
+	border: 1px solid black;
+	padding: 3px 10px;
+	max-width: 100px;
+	margin: 0 auto;
+}
+
+section.info {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	max-width: 100%;
+}
+
+.blerbs {
+	display: inline-block;
+	text-align: left;
+	padding: 20px 0;
+}
+
+.info-top .blerbs {
+	max-width: 49%;
+}
+.info-bottom .blerbs {
+	max-width: 33%;
+}
+
+
+.middle-img {
+	display: block;
+	margin: 0 auto;
+	max-width: 876px;
+}
+
+footer address {
+	margin: 20px 0;
+}
+
+.contact {
+	line-height: 20px;
+}
+
+.copyright {
+	margin: 0 auto;
