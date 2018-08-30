@@ -71,9 +71,8 @@ div.container {
 
 header {
 	padding: 10px 0px 20px 0;
-	width: 876px;
+	width: 100%;
 	background-color: gray;
-	/* display: flex; */
 	align-items: center;
 	position: fixed;
 }
@@ -81,15 +80,15 @@ header {
 header nav {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 }
 header nav a {
 	color: lightgrey;
-	margin: 0px 55px 0px 4px;
+	/* margin: 0px 55px 0px 4px; */
 	text-decoration: none;
 }
 
 .logo {
-	/* display: inline-block; */
 	margin: 0px 0px 0px 0px;
 	text-align: right;
 }
